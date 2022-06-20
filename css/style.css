@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&family=Raleway:wght@400;600;700;800&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+header{
+	background-color: #fff;
+	color: #000 !important;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: solid 20px #ff8c4f;
+}
+
+.navbar-light .navbar-brandt {
+	color: #000;
+
+}
+p{
+	font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+.imagen {
+	background-image:linear-gradient(to right,#fff0,#6ec0c7), url(../img/profile.jpg);
+	background-size: cover;
+    background-position: top;
+}
+.info{
+	padding: : 0;
+}
+
+#acerca-de-mi{
+	background-color: #6ec0c7;
+}
+#acerca-de-mi article{
+	padding:10% 0;
+}
+ .titulo{
+ 	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    margin: 51px;
+    text-align: center;
+ }
+ #acerca-de-mi .titulo{
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 50px;
+    color: #fff;
+ }
+
+.btn.btn-dark {
+    padding: 12px 27px;
+    background-color: #ff6704;
+    border: none;
+}
+.btn.btn-light {
+    padding: 12px 27px;
+    background-color: #fff;
+    border: none;
+}
+
+.servicio-1{
+	background-color: #6e75c7;
+    padding: 150px 0;
+    text-align: center;
+}
+.servicio-2{
+	background-color: #515abf;
+    padding: 150px 0;
+    text-align: center;
+}
+.servicio-3{
+	background-color: #303783;
+    padding: 150px 0;
+    text-align: center;
+}
+
+#servicios p{
+	color: #fff;
+}
+#servicios i{
+	font-size: 120px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.galeria-titulo{
+	font-family: 'Raleway', sans-serif;
+	background-color: #ffa91a;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 10px 54px;
+    color: #b37309;
+    margin: 0;
+}
+#galeria{
+	background: rgb(255,209,154);
+	background: linear-gradient(0deg, rgba(255,209,154,1) 0%, rgba(255,105,26,1) 100%);
+}
+#galeria article{
+	padding:25px 20px;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#contacto{
+	padding: 20px;
+	background-color: #831f1f;
+}
+.form{
+	border: solid 2px #ff8c4f;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c9b4b4;
+    border-radius: 15px;
+    padding: 5px;
+}
+.social {
+	margin: 100px 0;
+	text-align: center;
+    font-size: 68px;
+}
+.social a{
+	color: #440505;
+}
+.social a:hover{
+	color: #fff;
+}
+h3 {
+	font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 20px 0 41px;
+}
+textarea {
+    resize: vertical;
+    width: 400px;
+    height: 350px;
+    border: solid 2px #ff8c4f;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c9b4b4;
+    border-radius: 15px;
+    padding: 17px;
+    margin: 0 68px;
+}
+footer{
+	background-color: #000;
+	padding: 20px 0;
+	color: #aaa;
+	text-align: center;
+}
+footer h3{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+}
+.row{
+	--bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0;
+}
